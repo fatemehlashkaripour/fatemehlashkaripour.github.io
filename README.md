@@ -1,12 +1,12 @@
 # Fatemeh Lashkaripour — personal website
 
-Live at **https://fatemeh-lp.github.io**
+Live at **https://fatemehlashkaripour.github.io**
 
 Plain HTML + CSS, hosted free on GitHub Pages. Every change uploaded to this repository goes live in about a minute.
 
 ## Upload a new version of your paper (no software needed)
 
-1. Go to https://github.com/fatemeh-lp/fatemeh-lp.github.io and open the **papers** folder.
+1. Go to https://github.com/fatemehlashkaripour/fatemehlashkaripour.github.io and open the **papers** folder.
 2. Click **Add file → Upload files**.
 3. Drag in your PDF. It must be named exactly **`Lashkaripour_JMP.pdf`**
    (rename it on your Mac first). Uploading a file with the same name replaces the old version.
