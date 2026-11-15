@@ -14,6 +14,8 @@ Plain HTML + CSS, hosted free on GitHub Pages. Every change uploaded to this rep
 
 The same works for:
 - **Your CV**: the **files** folder, named `Lashkaripour_CV.pdf`
+- **Research statement**: the **files** folder, named `Lashkaripour_Research_Statement.pdf`
+- **Teaching statement**: the **files** folder, named `Lashkaripour_Teaching_Statement.pdf`
 - **Your photo**: the **images** folder, named `headshot.jpg` (square works best)
 
 ## Files
