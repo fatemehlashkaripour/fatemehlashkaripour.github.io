@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" preserveAspectRatio="xMidYMid slice">
+  <!-- Kentucky hills at dusk with a winding road. Original artwork for this site. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#143840"/>
+      <stop offset="0.42" stop-color="#245e64"/>
+      <stop offset="0.66" stop-color="#7c8f86"/>
+      <stop offset="0.82" stop-color="#e3946f"/>
+      <stop offset="1" stop-color="#f4c8a5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd8b6" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffd8b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="road" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f6e6d3"/>
+      <stop offset="1" stop-color="#e9c9aa"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.12"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="440" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="1210" cy="292" r="200" fill="url(#glow)"/>
+  <circle cx="1210" cy="292" r="58" fill="#f08a5d"/>
+
+  <!-- far hills -->
+  <path d="M0 292 C 180 256, 360 248, 560 280 S 900 246, 1100 270 S 1440 236, 1600 262 L1600 440 L0 440 Z" fill="#7fa8a1"/>
+  <!-- mid hills -->
+  <path d="M0 336 C 220 296, 430 304, 650 334 S 1010 296, 1250 322 S 1500 306, 1600 314 L1600 440 L0 440 Z" fill="#43807d"/>
+
+  <!-- trees on mid hills -->
+  <g fill="#2a615f">
+    <circle cx="250" cy="306" r="16"/><rect x="248" y="318" width="4" height="10"/>
+    <circle cx="282" cy="310" r="11"/><rect x="280" y="318" width="4" height="8"/>
+    <circle cx="1380" cy="304" r="14"/><rect x="1378" y="314" width="4" height="10"/>
+    <circle cx="1410" cy="308" r="9"/>
+  </g>
+
+  <!-- near hills -->
+  <path d="M0 392 C 260 350, 520 362, 760 384 S 1180 350, 1600 372 L1600 440 L0 440 Z" fill="#1f5a5e"/>
+
+  <!-- plank fence -->
+  <g stroke="#f6e6d3" stroke-linecap="round" opacity="0.85">
+    <path d="M0 384 L 520 360" stroke-width="2.5"/>
+    <path d="M0 395 L 520 371" stroke-width="2.5"/>
+    <g stroke-width="3">
+      <path d="M20 378 v24"/><path d="M80 375 v24"/><path d="M140 372 v24"/><path d="M200 370 v24"/>
+      <path d="M260 367 v24"/><path d="M320 364 v24"/><path d="M380 361 v24"/><path d="M440 358 v24"/><path d="M500 356 v24"/>
+    </g>
+  </g>
+
+  <!-- winding road -->
+  <path d="M560 440 C 700 406, 840 394, 906 368 C 960 346, 1040 332, 1104 320 L1114 320 C 1062 334, 992 352, 952 376 C 892 410, 830 426, 812 440 Z" fill="url(#road)"/>
+  <path d="M686 440 C 784 410, 874 392, 930 370 C 978 350, 1050 334, 1109 320" fill="none" stroke="#e0653f" stroke-width="3" stroke-dasharray="16 13" stroke-linecap="round"/>
+
+  <rect width="1600" height="440" filter="url(#grain)"/>
+</svg>
