@@ -4,19 +4,20 @@
    ========================================================== */
 
 :root {
-  --bg: #fcfaf7;          /* page background */
+  --bg: #fbf9fd;          /* page background */
   --paper: #ffffff;       /* cards, header */
   --ink: #1f2428;         /* main text */
   --muted: #5b6166;       /* secondary text */
-  --line: #e7e0d6;        /* card borders, dividers */
-  --rule: #cfc7bc;        /* thin line under header */
-  --teal: #1e5a63;        /* primary color */
-  --teal-ink: #163f46;    /* darker teal */
-  --teal-soft: #3f8a8c;
+  --line: #e7def2;        /* card borders, dividers */
+  --rule: #d2c6e3;        /* thin line under header */
+  --teal: #7457b0;        /* primary color (purple) */
+  --teal-ink: #4b3480;    /* darker purple */
+  --teal-soft: #a48bd6;
   --coral: #e0653f;       /* accent */
   --coral-ink: #b84a26;   /* accent for small text (readable) */
-  --sand: #f3e9dc;        /* tags, tile backgrounds */
-  --cream: #fbf1e6;       /* text on teal */
+  --sand: #efe7f8;        /* tags, tile backgrounds (lavender) */
+  --cream: #faf6fe;       /* text on purple */
+  --lavender: #ebe2f6;    /* footer background */
   --maxw: 1080px;
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -162,7 +163,7 @@ p:last-child { margin-bottom: 0; }
 .portrait {
   position: relative; width: 260px; aspect-ratio: 1; margin: 6px auto 0;
   border-radius: 50%; overflow: hidden;
-  background: linear-gradient(150deg, #e0653f 0%, #3f8a8c 55%, #1e5a63 100%);
+  background: linear-gradient(150deg, #c98ae0 0%, #9b7fd6 50%, #6a4fa8 100%);
   display: grid; place-items: center;
   color: var(--cream); font-family: var(--serif); font-size: 4.2rem;
   box-shadow: 0 0 0 6px var(--paper), 0 0 0 8px var(--sand), 0 16px 36px rgba(31, 36, 40, .14);
@@ -179,7 +180,7 @@ p:last-child { margin-bottom: 0; }
   text-decoration: none; font-weight: 400; font-size: .95rem; line-height: 1.4;
   transition: background .15s, color .15s, border-color .15s;
 }
-.btn:hover { background: #e8f1f1; color: var(--teal-ink); }
+.btn:hover { background: #f1eafa; color: var(--teal-ink); }
 .btn--solid { background: var(--teal); color: #fff; }
 .btn--solid:hover { background: var(--teal-ink); color: #fff; }
 .btn--coral { background: var(--coral); border-color: var(--coral); color: #fff; }
@@ -328,20 +329,20 @@ p:last-child { margin-bottom: 0; }
 .ref a { word-break: break-all; }
 
 /* ---------- Footer ---------- */
-.site-footer { background: var(--teal); color: var(--cream); margin-top: auto; }
+.site-footer { background: var(--lavender); color: var(--ink); margin-top: auto; }
 .footer-inner {
   max-width: var(--maxw); margin: 0 auto; padding: 44px 16px 26px;
   display: grid; grid-template-columns: 1fr 2fr; gap: 20px 40px; align-items: start;
 }
-.footer-inner h2 { margin: 0; color: var(--cream); }
+.footer-inner h2 { margin: 0; color: var(--teal-ink); }
 .footer-contact { font-size: .98rem; line-height: 1.65; }
-.footer-contact a { color: #ffd6c2; font-weight: 400; }
-.footer-contact a:hover { color: #fff; }
-.footer-contact address { font-style: normal; color: rgba(251, 241, 230, .82); margin-top: 6px; }
+.footer-contact a { color: var(--teal-ink); font-weight: 400; }
+.footer-contact a:hover { color: var(--coral-ink); }
+.footer-contact address { font-style: normal; color: var(--muted); margin-top: 6px; }
 .copyright {
   grid-column: 1 / -1; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
-  color: rgba(251, 241, 230, .7);
-  border-top: 1px solid rgba(251, 241, 230, .2); padding-top: 16px; margin-top: 12px; text-align: center;
+  color: var(--muted);
+  border-top: 1px solid rgba(75, 52, 128, .16); padding-top: 16px; margin-top: 12px; text-align: center;
 }
 
 /* ---------- Small screens ---------- */
