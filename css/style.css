@@ -95,18 +95,18 @@ strong { font-weight: 500; }
 /* ---------- Home hero ---------- */
 .hero {
   position: relative;
-  background: #143840 url("../images/banner.svg") center bottom / cover no-repeat;
-  color: var(--cream);
+  background: #5b2a9e url("../images/banner.jpg") center / cover no-repeat;
+  color: #fff;
   text-align: center;
-  padding: clamp(54px, 8vw, 86px) 16px clamp(130px, 17vw, 200px);
+  padding: clamp(70px, 10vw, 118px) 16px;
 }
 .hero::before {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(to bottom, rgba(12, 34, 40, .5), rgba(12, 34, 40, .12) 58%, rgba(12, 34, 40, 0) 80%);
+  background: rgba(36, 14, 66, .34);
 }
 .hero > * { position: relative; }
 .kicker {
-  margin: 0 0 .8rem; color: #ffd6c2;
+  margin: 0 0 .8rem; color: #f4e9ff;
   font-size: .8rem; font-weight: 500; letter-spacing: .22em; text-transform: uppercase;
 }
 .hero h1 {
@@ -117,7 +117,7 @@ strong { font-weight: 500; }
 .hero .sub { margin: .7rem auto 0; max-width: 40rem; font-size: clamp(1rem, 2.2vw, 1.2rem); font-weight: 400; }
 .pill {
   display: inline-block; margin-top: 20px;
-  background: var(--coral); color: #fff;
+  background: rgba(255, 255, 255, .92); color: #3f1d72;
   font-size: .85rem; font-weight: 500; letter-spacing: .05em;
   padding: .42em 1.1em; border-radius: 999px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, .18);
@@ -126,11 +126,11 @@ strong { font-weight: 500; }
 /* ---------- Sub-page banner ---------- */
 .page-banner {
   position: relative;
-  background: #143840 url("../images/banner.svg") center 82% / cover no-repeat;
-  color: var(--cream); text-align: center;
+  background: #5b2a9e url("../images/banner.jpg") center / cover no-repeat;
+  color: #fff; text-align: center;
   padding: clamp(40px, 6vw, 62px) 16px;
 }
-.page-banner::before { content: ""; position: absolute; inset: 0; background: rgba(12, 34, 40, .38); }
+.page-banner::before { content: ""; position: absolute; inset: 0; background: rgba(36, 14, 66, .34); }
 .page-banner > * { position: relative; }
 .page-banner h1 {
   margin: 0; font-family: var(--serif); font-weight: 500;

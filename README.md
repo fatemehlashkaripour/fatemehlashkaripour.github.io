@@ -27,7 +27,7 @@ The same works for:
 | `teaching.html` | Teaching experience |
 | `cv.html` | CV download, references, education, awards, skills |
 | `css/style.css` | All colors, fonts and layout (colors at the top under `:root`) |
-| `images/banner.svg` | The Kentucky-hills banner |
+| `images/banner.jpg` | The purple watercolor banner |
 | `files/Lashkaripour_CV.pdf` | Your CV |
 | `papers/` | Paper PDFs |
 
