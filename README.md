@@ -4,6 +4,12 @@ Live at **https://fatemehlashkaripour.github.io**
 
 Plain HTML + CSS, hosted free on GitHub Pages. Every change uploaded to this repository goes live in about a minute.
 
+## Update your job market paper (easiest)
+
+Save the newest `paper.pdf`, `abstract.pdf` and `abstract.txt` in the Job market folder, then double-click
+**Update website paper.command** in that folder. It copies the paper and abstract PDFs to the site,
+updates the abstract text on the Research page, and publishes. The site updates in about a minute.
+
 ## Upload a new version of your paper (no software needed)
 
 1. Go to https://github.com/fatemehlashkaripour/fatemehlashkaripour.github.io and open the **papers** folder.
@@ -30,7 +36,7 @@ The same works for:
 | `css/style.css` | All colors, fonts and layout (colors at the top under `:root`) |
 | `images/banner.jpg` | The purple watercolor banner |
 | `files/Lashkaripour_CV.pdf` | Your CV |
-| `papers/` | Paper PDFs |
+| `papers/` | Paper PDFs (`Lashkaripour_JMP.pdf`, `Lashkaripour_JMP_Abstract.pdf`, slides) |
 
 ## Editing text
 
