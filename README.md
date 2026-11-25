@@ -14,7 +14,7 @@ updates the abstract text on the Research page, and publishes. The site updates 
 
 1. Go to https://github.com/fatemehlashkaripour/fatemehlashkaripour.github.io and open the **papers** folder.
 2. Click **Add file → Upload files**.
-3. Drag in your PDF. It must be named exactly **`Lashkaripour_JMP.pdf`**
+3. Drag in your PDF. It must be named exactly **`JMP_Lashkaripour.pdf`** (the appendix is a second file, `JMP_Lashkaripour_Appendix.pdf`)
    (rename it on your Mac first). Uploading a file with the same name replaces the old version.
 4. Click **Commit changes**. Wait about a minute, then refresh your website.
 
@@ -36,7 +36,7 @@ The same works for:
 | `css/style.css` | All colors, fonts and layout (colors at the top under `:root`) |
 | `images/banner.jpg` | The purple watercolor banner |
 | `files/Lashkaripour_CV.pdf` | Your CV |
-| `papers/` | Paper PDFs (`Lashkaripour_JMP.pdf`, `Lashkaripour_JMP_Abstract.pdf`, slides) |
+| `papers/` | Paper PDFs (`JMP_Lashkaripour.pdf`, `JMP_Lashkaripour_Appendix.pdf`, `Lashkaripour_JMP_Abstract.pdf`, slides) |
 
 ## Editing text
 
